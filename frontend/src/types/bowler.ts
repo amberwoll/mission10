@@ -2,8 +2,8 @@ import { team } from './team.ts';
 
 export type bowler = {
   bowlerID: number;
-  bowlerFirstName: string;
   bowlerLastName: string;
+  bowlerFirstName: string;
   bowlerMiddleInit: string;
   bowlerAddress: string;
   bowlerCity: string;
