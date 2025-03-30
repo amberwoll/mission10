@@ -22,7 +22,7 @@ namespace mission10.Controllers
         {
             var bowlList = _bowlContext.Bowlers
                 .Include(b => b.Team) // Ensure Team is included
-                .ToList();
+                .ToList(); // makes list of teams
     
             return bowlList;
         }
