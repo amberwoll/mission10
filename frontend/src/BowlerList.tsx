@@ -40,7 +40,7 @@ function BowlerList() {
         <tbody>
           {bowlers.map((bowler) => (
             <tr key={bowler.bowlerID}>
-              <td>{`${bowler.bowlerFirstName} ${bowler.bowlerMiddleInit ? bowler.bowlerMiddleInit + ' ' : ''}${bowler.bowlerLastName}`}</td>
+              <td>{`${bowler.bowlerFirstName} ${bowler.bowlerMiddleInit ? bowler.bowlerMiddleInit + '. ' : ''}${bowler.bowlerLastName}`}</td>
               <td>{bowler.team?.teamName}</td>
               <td>{bowler.bowlerAddress}</td>
               <td>{bowler.bowlerCity}</td>
